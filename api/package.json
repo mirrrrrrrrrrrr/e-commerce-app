@@ -1,0 +1,32 @@
+{
+    "name": "ecommerce-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsx src/index.ts",
+        "dev": "tsx --watch --env-file=.env src/index.ts",
+        "build": "tsc",
+        "db:push": "drizzle-kit push",
+        "db:generate": "drizzle-kit generate",
+        "db:migrate": "drizzle-kit migrate",
+        "db:studio": "drizzle-kit studio"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "type": "module",
+    "devDependencies": {
+        "@types/express": "^5.0.1",
+        "@types/node": "^22.15.17",
+        "@types/pg": "^8.15.1",
+        "drizzle-kit": "^0.31.1",
+        "tsx": "^4.19.4",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "drizzle-orm": "^0.43.1",
+        "express": "^5.1.0",
+        "pg": "^8.15.6"
+    }
+}
