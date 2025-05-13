@@ -1,9 +1,9 @@
 import { type Request, type Response } from "express";
-import bcryptjs from "bcryptjs";
-import { db } from "@db/index";
-import { usersTable } from "@db/userSchema";
 import { eq } from "drizzle-orm";
+import bcryptjs from "bcryptjs";
 import jwt from "jsonwebtoken";
+import { db } from "@db/index.js";
+import { usersTable } from "@db/userSchema.js";
 
 interface IUser {
     email: string;

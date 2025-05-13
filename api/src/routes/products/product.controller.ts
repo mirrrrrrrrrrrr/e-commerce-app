@@ -1,7 +1,7 @@
 import { type Request, type Response } from "express";
 import { eq } from "drizzle-orm";
-import { db } from "@db/index";
-import { productsTable } from "@db/productSchema";
+import { db } from "@db/index.js";
+import { productsTable } from "@db/productSchema.js";
 
 export const getAllProducts = async (req: Request, res: Response) => {
     try {
