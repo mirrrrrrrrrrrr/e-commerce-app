@@ -1,5 +1,6 @@
 import { type Application, json, urlencoded } from "express";
 import productRouter from "@routes/products/";
+import authRouter from "@routes/auth";
 
 function App(app: Application) {
     // core middlewares
@@ -8,6 +9,7 @@ function App(app: Application) {
 
     // routes
     app.use("/api/products", productRouter);
+    app.use("/api/auth", authRouter);
 }
 
 export default App;

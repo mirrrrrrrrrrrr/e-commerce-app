@@ -19,7 +19,8 @@
             "@middlewares/*": ["src/middlewares/*"],
             "@schemas/*": ["src/schemas/*"],
             "@utils/*": ["src/utils/*"],
-            "@db/*": ["src/db/*"]
+            "@db/*": ["src/db/*"],
+            "@types/*": ["types/*"]
         }
     },
     "include": ["src/**/*"],

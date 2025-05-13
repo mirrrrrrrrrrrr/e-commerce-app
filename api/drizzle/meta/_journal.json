@@ -22,6 +22,20 @@
       "when": 1747055139362,
       "tag": "0002_awesome_mister_sinister",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1747072368326,
+      "tag": "0003_whole_venus",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1747111108745,
+      "tag": "0004_nasty_doctor_doom",
+      "breakpoints": true
     }
   ]
 }
